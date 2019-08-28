@@ -1,12 +1,42 @@
 <resources>
     <string name="app_name">My First App</string>
     <string name="edit_message">Enter a message</string>
-    <string name="button_send">send</string>
+    <string name="button_send">Send</string>
     <string name="button_helloToast">Hello Toast</string>
     <string name="button_label_toast">Toast</string>
     <string name="button_label_count">Count</string>
-    <string name="count_initial_value">0</string>
-    <string name="app_label_helloToast">Hello Toast</string>
+    <string name="text_count_initial_value">0</string>
+    <string name="app_name_helloToast">Hello Toast</string>
     <string name="toast_message">Hello Toast !</string>
     <string name="button_label_zero">Zero</string>
+    <string name="button_scrollview">Scroll View</string>
+    <string name="text_article_title">Macron Wants Amazon Fires to Be No. 1 Topic at G-7 Summit</string>
+    <string name="text_article_subtitle">By VOA News\nAugust 22, 2019 06:14 PM</string>
+    <string name="text_article_text">
+        <b><i>www.voanews.com</i></b>
+        \n\nBrazil\'s ultra-right president, Jair Bolsonaro, is accusing his French counterpart of having a \"colonialist mentality\" for saying the Amazon wildfires should be at the top of the Group of Seven (G-7) summit agenda.
+        \n\n\"The French president\'s suggestion that Amazon issues be discussed at the G-7 without participation by the countries in the region evoke a colonialist mentality that is out of place in the 21st century,\" Bolsonaro tweeted Thursday.
+        \n\nHe said countries that send money to Brazil for the Amazon are not doing it out of charity but \"with the aim of interfering with our sovereignty.\"
+        \n\nThousands of wildfires burning in the Amazon rainforest threaten to wipe out large parts of a vital and irreplaceable ecosystem.
+        \n\n\"Our house is burning. Literally,\" French President Emmanuel Macron tweeted Thursday.\" The Amazon rainforest, the lungs which produces 20% of our planet\'s oxygen, is on fire. It is an international crisis.\"
+        \n\nImages from U.S. satellites show smoke blanketing South America from the thousands of fires burning in the Amazon.
+        \n\nU.N. Secretary-General Antonio Guterres says he is very concerned and the Bishops Conference for Latin America Thursday said the fires are a \"tragedy\" and called on the world to take immediate action to protect the Amazon.
+        \n\nBrazil\'s National Institute for Space Research reported this week it has spotted about 73,000 fires in the Amazon so far this year — an 83% surge over the first eight months of 2018.Environmentalists put much of the blame on Bolsonaro, saying he encourages farmers and others to burn land for development and pasture.
+        \n\nThey decry what they say are his anti-environment stance in favor of oil, mineral, logging and ranching interests. Bolsonaro has called the Amazon an economic resource that should be exploited.
+        \n\nWith no evidence to back it up, Bolsonaro has accused nongovernmental organizations that have lost funding of deliberately setting the fires to \"try to take me down.\"
+        \n\nBut he said Thursday that farmers may have illegally set fires.
+        \n\nBolsonaro also said his government lacks the resources to fight the fires in such a huge area.
+        \n\nBrazilian prosecutors say they will investigate allegations that the government has cut back on monitoring and enforcing environmental laws in the Amazon. They also plan to look into who was behind a newspaper advertisement in Para state encouraging farmers to set fires and burn large areas.
+        \n\nThe Amazon rainforest is the world\'s biggest ecosystem and irreplaceable. Environmentalists call it \"the world\'s lungs\" because it creates 20% of the globe\'s oxygen and is able to absorb carbon dioxide, the gas primarily responsible for global warming.
+        \n\nThe Amazon is also home to much of Brazil\'s indigenous population and thousands of species of mammals, birds and reptiles.</string>
+    <string name="app_name_scrollview">Scroll View</string>
+    <string name="button_add_comment">Add Comment</string>
+    <string name="button_two_activities">Two Activities</string>
+    <string name="app_name_secondActivity">Second Activity</string>
+    <string name="text_header">Message Received</string>
+    <string name="app_name_twoActivities">Two Activities</string>
+    <string name="hint_text_enter_your_message_here">Enter Your Message Here</string>
+    <string name="button_reply">Reply</string>
+    <string name="hint_text_enter_your_reply_here">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
 </resources>

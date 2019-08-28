@@ -24,10 +24,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelloToast"
-            android:label="@string/app_label_helloToast">
-        </activity>
-
+        <activity
+            android:name=".TwoActivities_second"
+            android:label="@string/app_name_secondActivity"
+            android:parentActivityName=".TwoActivities"></activity>
+        <activity
+            android:name=".TwoActivities"
+            android:label="@string/app_name_twoActivities"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScrollView"
+            android:label="@string/app_name_scrollview"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HelloToast"
+            android:label="@string/app_name_helloToast"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DisplayMessageActivity"
             android:parentActivityName=".MainActivity" />

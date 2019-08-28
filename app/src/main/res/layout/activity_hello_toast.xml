@@ -51,7 +51,7 @@
         android:layout_marginBottom="8dp"
         android:background="#FFFF00"
         android:gravity="center"
-        android:text="@string/count_initial_value"
+        android:text="@string/text_count_initial_value"
         android:textColor="@color/colorPrimary"
         android:textSize="150sp"
         android:textStyle="bold"
