@@ -25,9 +25,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Total"
+            android:label="@string/app_name_total"
+            android:parentActivityName=".HelloToast"></activity>
+        <activity
             android:name=".TwoActivities_second"
             android:label="@string/app_name_secondActivity"
-            android:parentActivityName=".TwoActivities"></activity>
+            android:parentActivityName=".TwoActivities" />
         <activity
             android:name=".TwoActivities"
             android:label="@string/app_name_twoActivities"

@@ -1,5 +1,6 @@
 package com.example.myfirstapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ public class HelloToast extends AppCompatActivity {
 
     private int mCount = 0;
     private TextView mShowCount;
+    public static final String EXTRA_MESSAGE_total = ".HelloToast.Total";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,17 +23,25 @@ public class HelloToast extends AppCompatActivity {
 
     public void countUp(View view) {
         mCount++;
-          if (mShowCount != null)
+        if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
 
     public void showToast(View view) {
-        Toast toast =Toast.makeText(this,R.string.toast_message,Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
         toast.show();
     }
 
     public void zero(View view) {
         mCount = 0;
-          mShowCount.setText(Integer.toString(mCount));
+        mShowCount.setText(Integer.toString(mCount));
+    }
+
+    public void total(View view) {
+        Intent intent = new Intent(this, Total.class);
+        String mTotal = mShowCount.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE_total, mTotal);
+        startActivity(intent);
+
     }
 }
